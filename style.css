@@ -55,12 +55,21 @@
   height: 600px;
   max-width: 100%;
 }
-
-.item {
+.item-inner{
+ width: 100%;
+ border-radius: 3%;
+ border: 3px solid white;
+}
+.item{
+  border: 3px solid white;
   width: 100%;
   border-radius: 10px;
+  transition: 0.2s;
 }
 
-.game-carousel .my_container {
+.item:hover {
+  border: 3px solid aquamarine;
+
+.game-carousel .container {
   width: 100%;
 }
