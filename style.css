@@ -26,7 +26,9 @@
 .navbar-light .navbar-toggler {
   border: none;
 }
-
-img {
-  width: 100%;
+.hero-header {
+  background-image: url(img/jumbo-bg.png);
+}
+.hero-header .container {
+  height: 400px;
 }
