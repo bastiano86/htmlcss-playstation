@@ -15,12 +15,27 @@
 .brand-bar img {
   height: 20px;
 }
+.green {
+  background-color: green;
+}
 
+.red {
+  background-color: red;
+}
 .btn {
   background-color: #5c5c5c;
   border: 1px solid #5c5c5c;
   border-radius: 20px;
   color: white;
+}
+
+.my_btn-orange{
+  background-color: orange;
+  padding: 15px;
+  width: 100%;
+  border-radius: 30px;
+  color: white;
+  text-decoration: none;
 }
 
 .navbar-light .navbar-toggler {
@@ -29,6 +44,14 @@
 .hero-header {
   background-image: url(img/jumbo-bg.png);
 }
+
+.hero-header-copy {
+ color: white;
+}
+
+.hero-header-copy p{
+  margin-bottom: 50px;
+}
 .hero-header .container {
-  height: 400px;
+  height: 600px;
 }
