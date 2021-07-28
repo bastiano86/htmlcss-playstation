@@ -30,7 +30,7 @@
 }
 
 .my_btn-orange{
-  background-color: orange;
+  background-color: #eb7602;
   padding: 15px;
   width: 100%;
   border-radius: 30px;
@@ -42,16 +42,25 @@
   border: none;
 }
 .hero-header {
+  color: white;
   background-image: url(img/jumbo-bg.png);
+  background-position:top;
 }
 
-.hero-header-copy {
- color: white;
+.hero-header .row{
+  height: 100%;
 }
 
-.hero-header-copy p{
-  margin-bottom: 50px;
-}
 .hero-header .container {
   height: 600px;
+  max-width: 100%;
+}
+
+.item {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.game-carousel .my_container {
+  width: 100%;
 }
