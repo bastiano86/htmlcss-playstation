@@ -1,3 +1,8 @@
+/* PICS */
+img {
+  width: 100%;
+}
+
 .my_drop-down-arrow::after {
   margin: 0 15px;
   font-family: "Font Awesome 5 Free";
@@ -86,7 +91,11 @@
   color: #009ceb;
 }
 
-/* PICS */
-img {
-  width: 100%;
+.still-life-set img{
+  padding-bottom: 1px;
+  border-bottom:3px solid rgba(255,255,255,0.0);
+  transition: 0.4s;
+}
+.still-life-set img:hover {
+  border-bottom:3px solid #009ceb;
 }
