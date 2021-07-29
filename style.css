@@ -66,10 +66,16 @@
   border-radius: 10px;
   transition: 0.2s;
 }
-
 .item:hover {
   border: 3px solid aquamarine;
-
+}
 .game-carousel .container {
   width: 100%;
+}
+/* TITOLI SINGOLI */
+.title {
+  text-align: center;
+}
+.title h7 {
+  color: #009ceb;
 }
