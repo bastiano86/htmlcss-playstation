@@ -38,6 +38,15 @@
   text-decoration: none;
 }
 
+.my_btn-blue{
+  background-color: #009ceb;
+  padding: 15px;
+  width: 100%;
+  border-radius: 30px;
+  color: white;
+  text-decoration: none;
+}
+
 .navbar-light .navbar-toggler {
   border: none;
 }
@@ -73,9 +82,11 @@
   width: 100%;
 }
 /* TITOLI SINGOLI */
-.title {
-  text-align: center;
-}
 .title h7 {
   color: #009ceb;
+}
+
+/* PICS */
+img {
+  width: 100%;
 }
