@@ -23,7 +23,6 @@ img {
 .green {
   background-color: green;
 }
-
 .red {
   background-color: red;
 }
@@ -33,7 +32,6 @@ img {
   border-radius: 20px;
   color: white;
 }
-
 .my_btn-orange{
   background-color: #eb7602;
   padding: 15px;
@@ -64,23 +62,38 @@ img {
 .hero-header .row{
   height: 100%;
 }
+.hero-banner {
+  color: white;
+  background-image: url(img/it-takes-two-hero-banner-desktop.jpg);
+  background-position:top;
+}
+
+.hero-banner .row{
+  height: 100%;
+}
 
 .hero-header .container {
   height: 600px;
   max-width: 100%;
 }
-.item-inner{
+
+.hero-banner .container {
+  height: 600px;
+  max-width: 100%;
+}
+
+.games-carousel .item-inner{
  width: 100%;
  border-radius: 3%;
  border: 3px solid white;
 }
-.item{
+.games-carousel .item{
   border: 3px solid white;
   width: 100%;
   border-radius: 10px;
   transition: 0.2s;
 }
-.item:hover {
+.games-carousel .item:hover {
   border: 3px solid aquamarine;
 }
 .game-carousel .container {
@@ -90,7 +103,11 @@ img {
 .title h7 {
   color: #009ceb;
 }
+.trademark {
+  font-size: 0.5em;
+  vertical-align: text-top;
 
+}
 .still-life-set img{
   padding-bottom: 1px;
   border-bottom:3px solid rgba(255,255,255,0.0);
@@ -98,4 +115,12 @@ img {
 }
 .still-life-set img:hover {
   border-bottom:3px solid #009ceb;
+}
+.games-grid-black {
+  height: 100%;
+  background-color: black;
+}
+
+.games-grid-black img {
+  border-radius: 15px;
 }
