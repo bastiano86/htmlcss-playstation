@@ -2,7 +2,9 @@
 img {
   width: 100%;
 }
-
+.logo img {
+  width: 100px;
+}
 .my_drop-down-arrow::after {
   margin: 0 15px;
   font-family: "Font Awesome 5 Free";
@@ -41,14 +43,15 @@ img {
   text-decoration: none;
 }
 
-.my_btn-blue{
-  background-color: #009ceb;
+.my_btn-deepblue{
+  background-color: blue;
   padding: 15px;
   width: 100%;
   border-radius: 30px;
   color: white;
   text-decoration: none;
 }
+
 
 .navbar-light .navbar-toggler {
   border: none;
@@ -58,7 +61,6 @@ img {
   background-image: url(img/jumbo-bg.png);
   background-position:top;
 }
-
 .hero-header .row{
   height: 100%;
 }
@@ -67,21 +69,33 @@ img {
   background-image: url(img/it-takes-two-hero-banner-desktop.jpg);
   background-position:top;
 }
-
 .hero-banner .row{
   height: 100%;
 }
-
 .hero-header .container {
   height: 600px;
   max-width: 100%;
 }
-
 .hero-banner .container {
   height: 600px;
   max-width: 100%;
 }
-
+.second-hero-banner {
+  color: white;
+  background-color: lightgrey;
+  background-position:top;
+}
+.second-hero-banner .row{
+  height: 60vh;
+}
+.third-hero-banner {
+  color: white;
+  background-color: #070b5e;
+  background-position:top;
+}
+.third-hero-banner .row{
+  height: 60vh;
+}
 .games-carousel .item-inner{
  width: 100%;
  border-radius: 3%;
@@ -106,7 +120,6 @@ img {
 .trademark {
   font-size: 0.5em;
   vertical-align: text-top;
-
 }
 .still-life-set img{
   padding-bottom: 1px;
@@ -120,7 +133,21 @@ img {
   height: 100%;
   background-color: black;
 }
-
 .games-grid-black img {
   border-radius: 15px;
+}
+.second-still-life-set img {
+  width: 50%;
+}
+.filler {
+  background-image: url("img/ps-plus-april-monthly-games-featured-image-block.png");
+  background-size:cover;
+  background-position:left;
+  background-repeat:no-repeat;
+}
+.filler-two {
+  background-image: url("img/ps-now-april-featured-image-block.png");
+  background-size:cover;
+  background-position:left;
+  background-repeat:no-repeat;
 }
