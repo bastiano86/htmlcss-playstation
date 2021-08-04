@@ -61,7 +61,7 @@ img {
 }
 .hero-header {
   color: white;
-  background-image: url(img/jumbo-bg.png);
+  background-image: url(../img/jumbo-bg.png);
   background-position:top;
 }
 .hero-header .row{
@@ -74,7 +74,7 @@ img {
 .hero-banner {
   font-weight: bold;
   color: white;
-  background-image: url(img/it-takes-two-hero-banner-desktop.jpg);
+  background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
   background-position:top;
 }
 .hero-banner img{
@@ -156,13 +156,13 @@ img {
   width: 80%;
 }
 .filler {
-  background-image: url("img/ps-plus-april-monthly-games-featured-image-block.png");
+  background-image: url("../img/ps-plus-april-monthly-games-featured-image-block.png");
   background-size:cover;
   background-position:left;
   background-repeat:no-repeat;
 }
 .filler-two {
-  background-image: url("img/ps-now-april-featured-image-block.png");
+  background-image: url("../img/ps-now-april-featured-image-block.png");
   background-size:contain;
   background-position:left;
   background-repeat:no-repeat;
